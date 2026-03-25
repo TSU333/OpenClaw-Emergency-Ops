@@ -255,8 +255,8 @@ Quick start | 快速开始
 
 1. Clone the repository | 克隆仓库
 
-git clone https://github.com/TSU333/openclaw-emergency-ops.git
-cd openclaw-emergency-ops
+git clone https://github.com/TSU333/OpenClaw-Emergency-Ops.git
+cd OpenClaw-Emergency-Ops
 
 2. Create local config | 创建本地配置
 
