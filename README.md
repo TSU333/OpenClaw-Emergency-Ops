@@ -264,7 +264,7 @@ DEFAULT_PRIMARY_APPRISE_TARGETS=tgram://<BOT_TOKEN>/<CHAT_ID>/
 DEFAULT_SECONDARY_APPRISE_TARGETS=tgram://<BOT_TOKEN>/<CHAT_ID>/
 
 
-### Setup steps | 配置步骤
+### Setup steps 
 
 1. Create a bot with BotFather
 2. Send the bot a message such as `/start`
@@ -272,6 +272,8 @@ DEFAULT_SECONDARY_APPRISE_TARGETS=tgram://<BOT_TOKEN>/<CHAT_ID>/
 4. Update `.env`
 5. Restart the stack
 6. Send a test event and verify delivery
+
+### 配置步骤
 
 1. 通过 BotFather 创建 Telegram bot
 2. 先给 bot 发一条消息，例如 `/start`
@@ -323,7 +325,7 @@ This is expected during local testing and usually means the escalation chain is 
 
 ---
 
-## Example workflow | 示例流程
+## Example workflow
 
 1. A service posts an event to the API
 2. The backend classifies the event severity
@@ -333,6 +335,8 @@ This is expected during local testing and usually means the escalation chain is 
 6. If still unresolved, the secondary contact is notified
 7. Operators can acknowledge, snooze, or execute actions
 8. Every important step is recorded in the event timeline
+
+### 示例流程
 
 1. 外部系统通过 API 提交事件
 2. 后端判断事件严重度
